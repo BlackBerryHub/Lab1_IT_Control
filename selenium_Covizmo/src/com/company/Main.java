@@ -34,11 +34,11 @@ public class Main {
         Sheet s = wb.createSheet("Schedule "+institute+" "+group);
 
         Row row =  s.createRow(0);
-        row.createCell(0).setCellValue("ПН");
-        row.createCell(1).setCellValue("ВТ");
-        row.createCell(2).setCellValue("СР");
-        row.createCell(3).setCellValue("ЧТ");
-        row.createCell(4).setCellValue("ПТ");
+        row.createCell(0).setCellValue("Пн");
+        row.createCell(1).setCellValue("Вт");
+        row.createCell(2).setCellValue("Ср");
+        row.createCell(3).setCellValue("Чт");
+        row.createCell(4).setCellValue("Пт");
 
         List<WebElement> contentList = driver.findElements(By.xpath("//div[@class='view-content']/div"));
         int i = 0;
